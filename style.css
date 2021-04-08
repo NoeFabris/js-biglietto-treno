@@ -2,7 +2,7 @@ main{
     display: flex;
     justify-content: center;
 }
-.pw{
+.box{
     margin: auto;
     display: inline-block;
     background-color: beige;
@@ -10,16 +10,7 @@ main{
     margin-top: 20px;
     padding: 20px;
 }
-/* .pw-cover{
-    background-color: red;
-    transition: 1s linear;
-    display: inline-block;
-    border-radius: 20px;
-} */
-.pw-cover:hover{
-    background-color: beige;
-}
-#pw-gen{
+#price{
     font-weight: bold;
     color: red;
     font-size: 5rem;
