@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.pw{
+    margin: auto;
+    display: inline-block;
+    background-color: beige;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+/* .pw-cover{
+    background-color: red;
+    transition: 1s linear;
+    display: inline-block;
+    border-radius: 20px;
+} */
+.pw-cover:hover{
+    background-color: beige;
+}
+#pw-gen{
+    font-weight: bold;
+    color: red;
+    font-size: 5rem;
+}
